@@ -1,5 +1,5 @@
 # Bootstrap 3 with Less
-## Twitter's Bootstrap 3 Packaged for Meteor, using Less
+## Bootstrap 3 Packaged for Meteor, using Less
 
 Bootstrap 3, with all Less files for easy style customization.
 
@@ -106,7 +106,7 @@ To include the rest of bootstrap, create a `bootstrap.less` file where you `@imp
 
 ## License
 
-This package is licensed with the MIT license. [Twitter's Bootstrap License](https://github.com/twbs/bootstrap).
+This package is licensed with the MIT license. [Bootstrap License](https://github.com/twbs/bootstrap).
 
 ## Contributors
 - [Emmanuel Prochasson](https://github.com/eprochasson/)
