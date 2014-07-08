@@ -109,11 +109,14 @@ To include the rest of Bootstrap, create a `bootstrap.less` file where you `@imp
 
 ## Upgrading
 
+* 0.2.1
+    * You can now load the optional Bootstrap theme for a visually enhanced experience by adding `@import "/packages/bootstrap3-less/lib/less/theme.import.less";` to your own less file.
 * 0.2.0
     * Before we instructed to create `/public/fonts` symlink pointing to `../packages/bootstrap3-less/lib/fonts`. This isn't needed anymore since `/packages` folder is now public in Meteor. You can remove the symlink.
     * If you're using advanced importing (importing all the files instead of just `bootstrap.import.less`), note that there is now one new file to import: `responsive-embed.import.less`
     * See also [Bootstrap release changelog](https://github.com/twbs/bootstrap/releases/tag/v3.2.0)
-* 0.1.9 (Meteor <0.7.1) imported files were with `.lessimport` extension. Upgrade your custom import file to match new `.import.less` extensions.
+* 0.1.9
+    * (Meteor <0.7.1) imported files were with `.lessimport` extension. Upgrade your custom import file to match new `.import.less` extensions.
 
 ## License
 
