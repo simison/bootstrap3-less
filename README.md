@@ -9,7 +9,7 @@ Bootstrap 3.2.0, with all Less files for easy style customization.
 2. `mrt add less`
 3. `mrt add bootstrap3-less`
 4. Create a .less file anywhere in your project to be served to the client and add `@import "/packages/bootstrap3-less/bootstrap.import.less";`
-5. Load the optional Bootstrap theme for a visually enhanced experience by adding `@import "/packages/bootstrap3-less/lib/theme.import.less";`
+5. Load the optional Bootstrap theme for a visually enhanced experience by adding `@import "/packages/bootstrap3-less/lib/less/theme.import.less";`
 
 ## Customized Usage
 
