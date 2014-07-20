@@ -39,6 +39,7 @@ cp $BOOTSTRAP_ROOT/fonts/* lib/fonts
 cp $BOOTSTRAP_ROOT/less/* lib/less
 # versions of meteor after v0.7.0.1 (excluding) want .import.less instead of .lessimport
 rename "s/\\.less/\\.import.less/" lib/less/*.less
+sed "s/\\.less/\\.import.less/" lib/less/*.less lib/less/*/*.less
 
 
 
