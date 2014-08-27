@@ -1,4 +1,8 @@
-Package.describe({ summary: 'Bootstrap 3, with Less files.' });
+Package.describe({
+  summary: "Bootstrap 3, with Less files.",
+  version: "0.3.0",
+  git: "https://github.com/simison/bootstrap3-less",
+});
 
 Package.on_use(function (api) {
   api.use('jquery', 'client');
