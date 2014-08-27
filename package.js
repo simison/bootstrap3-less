@@ -4,7 +4,9 @@ Package.describe({
   git: "https://github.com/simison/bootstrap3-less",
 });
 
+
 Package.on_use(function (api) {
+  api.versionsFrom("METEOR@0.9.0");
   api.use('jquery', 'client');
   api.use('less', 'client');
 
