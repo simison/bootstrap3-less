@@ -109,6 +109,8 @@ To include the rest of Bootstrap, create a `bootstrap.less` file where you `@imp
 
 ## Upgrading
 
+* 0.3.0
+    * Migrated to new Meteor 0.9 package system.
 * 0.2.1
     * You can now load the optional Bootstrap theme for a visually enhanced experience by adding `@import "/packages/bootstrap3-less/lib/less/theme.import.less";` to your own less file.
 * 0.2.0
