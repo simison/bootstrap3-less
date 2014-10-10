@@ -1,7 +1,13 @@
 # Bootstrap 3 with Less
-## Bootstrap 3 Packaged for Meteor, using Less
 
-Bootstrap 3.2.0, with all Less files for easy style customization.
+**NOTE:** This package was good for Meteor 0.6.x-0.8.x and with changes in Meteor 0.9.x+ the method this package uses isn't working anymore.
+
+[`nemo64:bootstrap less`](https://github.com/Nemo64/meteor-bootstrap) is the package you'll want to have in the future. It goes around the limitations and is configurable in a totally new level compared to this package.
+
+---
+
+
+Bootstrap 3.2.0, with all Less files for easy style customization for Meteor 0.8.x.
 
 ## How to install
 
